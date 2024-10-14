@@ -1,0 +1,4 @@
+hello, world!
+привет, мир!
+hello
+world
