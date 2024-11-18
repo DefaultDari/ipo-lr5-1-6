@@ -5,3 +5,6 @@ for line in file1: # Проходим по каждой строке в файл
     number = f"{line_number}: {line}" # Создаем строку с номером строки и текстом строки            
     file2.write(number) # Записываем эту строку в файл output.txt
     line_number += 1 # Увеличиваем номер строки на 1 для следующей итерации
+#Закрытие файлов
+file1.close()
+file2.close()
